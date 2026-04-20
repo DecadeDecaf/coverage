@@ -36,8 +36,10 @@ if (behavior == "S") {
 				} else {
 					yv = (-random_range(16, 18));
 				}
-				jump_cooldown = irandom_range(jump_range_min, jump_range_max);
+			} else {
+				yv = (-random_range(16, 18));
 			}
+			jump_cooldown = irandom_range(jump_range_min, jump_range_max);
 		}
 	}
 }
