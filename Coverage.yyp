@@ -22,13 +22,14 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.1400.5.1052",
   },
   "name":"Coverage",
   "resources":[
     {"id":{"name":"fnt_regular_24","path":"fonts/fnt_regular_24/fnt_regular_24.yy",},},
     {"id":{"name":"fnt_regular_32","path":"fonts/fnt_regular_32/fnt_regular_32.yy",},},
     {"id":{"name":"fnt_regular_48","path":"fonts/fnt_regular_48/fnt_regular_48.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_cpu","path":"objects/obj_cpu/obj_cpu.yy",},},
     {"id":{"name":"obj_land","path":"objects/obj_land/obj_land.yy",},},
     {"id":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},},

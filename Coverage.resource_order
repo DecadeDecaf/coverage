@@ -10,6 +10,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_regular_24","order":2,"path":"fonts/fnt_regular_24/fnt_regular_24.yy",},
     {"name":"fnt_regular_48","order":1,"path":"fonts/fnt_regular_48/fnt_regular_48.yy",},
+    {"name":"obj_camera","order":8,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_cpu","order":7,"path":"objects/obj_cpu/obj_cpu.yy",},
     {"name":"obj_land","order":1,"path":"objects/obj_land/obj_land.yy",},
     {"name":"obj_plan","order":2,"path":"objects/obj_plan/obj_plan.yy",},

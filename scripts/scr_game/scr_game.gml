@@ -51,6 +51,7 @@ function create_plan(_x, _y, _override = [], _short = false) {
 	var _u_len = (_len - 5);
 	var _r_len = (_len);
 	var _rand = irandom_range(0, choose(_c_len, _u_len, _r_len));
+	print(_rand);
 	var _plan_info = _plans[@ _rand];
 	if (array_length(_override) > 0) {
 		_plan_info = _override;
@@ -343,9 +344,11 @@ function execute_plan(_plan) {
 	var _menu = [
 		["Singleplayer", "Compete against a computer-controlled opponent."],
 		["Local Multiplayer", "Take turns in the hotseat and compete for map coverage."],
-		["How to Play", "Read important information about the game."],
-		["Quit", "Close the game."]
+		["How to Play", "Read important information about the game."]
 	];
+	if (g.desktop) {
+		array_push(_menu, ["Quit", "Close the game."]);
+	}
 	var _back = [
 		["Back", "Return to the main menu."]
 	];

@@ -59,6 +59,8 @@ function create_globals() {
 	g.scalping = false;
 	g.markup = 0;
 	
+	g.desktop = (os_browser == browser_not_a_browser);
+	
 	g.second_controller = false;
 	
 	g.gp_press = [[false, false, false, false, false, false, false, false], [false, false, false, false, false, false, false, false]];
@@ -197,7 +199,7 @@ function handle_restart() {
 
 function handle_gameclose() {
 	var _esc = keyboard_check_pressed(vk_escape);
-	if (_esc) { game_end(); }
+	if (_esc && g.desktop) { game_end(); }
 }
 
 function error(_struct) {

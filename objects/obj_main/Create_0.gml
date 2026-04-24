@@ -18,6 +18,4 @@ randomize();
 
 window_set_cursor(cr_none);
 
-audio_play_sound(mus_game, 1, true);
-
 execute_plan("Back");
